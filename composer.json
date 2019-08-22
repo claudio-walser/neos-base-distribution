@@ -20,7 +20,7 @@
         "neos/nodetypes": "~4.3.0",
         "neos/site-kickstarter": "~4.3.0",
 
-        "neos/demo": "~5.0.1",
+        "claudio/render": "dev-master",
         "neos/neos-ui": "~3.3",
         "neos/seo": "~3.0",
         "neos/fusion-afx": "~1.2",
@@ -40,6 +40,10 @@
         "distributionPackages": {
             "type": "path",
             "url": "./DistributionPackages/*"
+        },
+        "claudio": {
+            "type": "vcs",
+            "url": "git@github.com:claudio-walser/Claudio.Render.git"
         }
     },
     "replace": {
